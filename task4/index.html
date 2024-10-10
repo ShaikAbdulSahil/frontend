@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bake It - Welcome</title>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Light&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('image/bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #704214;
+        }
+        .logo {
+            margin-top: 20px; /* Adjust as needed */
+        }
+        .logo-text {
+            font-family: 'Love Light', cursive; /* Apply the custom font */
+            font-size: 4.0rem; /* Adjust the size */
+            font-weight: normal; /* Optional: adjust weight */
+            color: #1d0f02; /* Optional: custom color */
+            margin-top: -2%;
+        }
+        .content {
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+        .button {
+            background-color: #a55c1b;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .top-right {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="logo.png" alt="Bake It Logo" width="200" height="200">
+        <p class="logo-text"  >Bake it</p>
+    </div>
+    <div class="content">
+        <h1>Welcome to Bake It</h1>
+        <p>We, at Bake It, bake delicious Vegan Pastries embedded with Love, offering a luxurious taste at an affordable price.</p>
+        <button class="button" onclick="location.href='#'">Order Here</button>
+    </div>
+    <div class="top-right">
+        <button class="button" onclick="location.href='signin.html'">Sign In</button>
+        <button class="button" onclick="location.href='signup.html'">Sign Up</button>
+    </div>
+</body>
+</html>
